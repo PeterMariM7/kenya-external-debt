@@ -40,3 +40,12 @@ SELECT
 FROM "Kenya_Debt".kenya_external_debt
 WHERE debt IS NOT NULL
 ORDER BY time;
+
+#### reflection
+
+
+This analysis revealed a consistent and notable rise in Kenya’s external debt from 2010 through 2023, with data for 2024 not yet available. Visualizing the year-to-year shifts highlighted major borrowing spikes, which may relate to infrastructure projects or economic recovery efforts.
+
+A key technical hurdle was configuring Grafana to correctly connect with the Aiven-hosted PostgreSQL database, which required handling a custom port and schema. Dealing with missing values and formatting the time-series data also demanded careful attention.
+
+Overall, this project strengthened my understanding of full-stack data workflows powered by APIs—from extraction and transformation, to storage and visualization. It also boosted my skills with tools like wbgapi, PostgreSQL, and Grafana.
