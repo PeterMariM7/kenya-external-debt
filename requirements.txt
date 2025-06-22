@@ -1,0 +1,9 @@
+
+
+## Requirements for the project
+# This file lists the Python packages required for the project.
+pandas
+sqlalchemy
+psycopg2-binary
+wbgapi
+requests
